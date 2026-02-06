@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Eden 🤍</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Fancy romantic fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;1,500&family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+
+  <!-- Music controls -->
+  <div class="music-controls">
+    <button id="playBtn">Play ♫</button>
+    <button id="changeBtn">Change song ♪</button>
+  </div>
+
+  <audio id="bgMusic" loop>
+    <source src="music/Ed Sheeran — Photograph.m4a" type="audio/mp4">
+  </audio>
+
+  <main class="container">
+
+    <img id="storyImage" class="story-img hidden" src="" alt="">
+
+    <div class="card">
+      <p id="storyText" class="story-text"></p>
+      <button id="nextBtn" class="next-btn">Next →</button>
+    </div>
+
+    <div id="valentine" class="valentine hidden">
+      <p class="question">
+        እና ቆንጂት… 🐭<br>
+        will you be my Valentine?
+      </p>
+
+      <div class="buttons">
+        <button id="yesBtn">Yes 💖</button>
+        <button id="noBtn">No</button>
+      </div>
+    </div>
+
+    <div id="final" class="final hidden">
+      <img src="image/rooster.png" class="final-img">
+      <h1>You chose wisely 😍</h1>
+      <p>Happy Valentine’s Day Konjit<br><span>— your rooster 🐓</span></p>
+    </div>
+
+  </main>
+
+</body>
+</html>
