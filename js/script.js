@@ -25,13 +25,15 @@ const songs = [
 let step = 0;
 
 const story = [
-  "Once upon a time,\nthere was Eden.\nSmart. Kind.\nDangerously good at everything.",
+  ""Once upon a time.\nthere was Eden.\nSmart. Kind. konjo.\nDangerously good at everything.",
 
-  "She met a rooster 🐓\nwho pretended to be confident.\nShe named him rooster.\nSo he named her mouse 🐭.",
+  "She met a rooster 🐓\nwho lowkey is sneaking on her.\n he tried to reach her. and fortunately she replied.",
+    
+  "nhe named her mouse🐭.\nSo she named him rooster 🐓.",
 
-  "They learned architecture.\nThey learned love.\nThen life added 1000km.\n\nVery rude.",
+  "They learned architecture.\nThey learned love.\n. and life was going good.\nThen life added 1000km.\n\nVery rude (🖕 life).",
 
-  "Future spoiler:\nSame house.\nSame city.\nA mouse.\nA rooster.\n\nAnd yes…\n12 kids.\n\nDon’t panic."
+  "Future spoiler:\n and finally they made it.\nSame house, Same city.\nA mouse.\nA rooster.\n\nAnd …\n12 kids.\n\nDon’t panic😜."
 ];
 
 function showStory() {
@@ -141,3 +143,4 @@ changeBtn.addEventListener("click", () => {
 
 // ===== INIT =====
 showStory();
+
