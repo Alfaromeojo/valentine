@@ -25,7 +25,7 @@ const songs = [
 let step = 0;
 
 const story = [
-  ""Once upon a time.\nthere was Eden.\nSmart. Kind. konjo.\nDangerously good at everything.",
+  "Once upon a time.\nthere was Eden.\nSmart. Kind. konjo.\nDangerously good at everything.",
 
   "She met a rooster 🐓\nwho lowkey is sneaking on her.\n he tried to reach her. and fortunately she replied.",
     
@@ -143,4 +143,5 @@ changeBtn.addEventListener("click", () => {
 
 // ===== INIT =====
 showStory();
+
 
